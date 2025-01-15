@@ -88,7 +88,7 @@ class _SplashScreenState extends State<SplashScreen> {
               Padding(
                 padding: const EdgeInsets.all(24.0),
                 child: FilledButton(
-                  onPressed: () => context.pushNamed(AppRoutes.homeScreen),
+                  onPressed: () => context.pushNamed(AppRoutes.landingScreen),
                   style: FilledButton.styleFrom(
                       backgroundColor: Colors.black
                   ),

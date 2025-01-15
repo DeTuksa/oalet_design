@@ -11,7 +11,7 @@ class AppTheme {
     500: Color(0xFF333333),
     600: Color(0xFF1D1D21)
   });
-  static Color secondary = const Color(0xFFEBB2FF);
+  static Color secondary = const Color(0xFFA7FED9);
   static Color tertiary = const Color(0xFFEBB2FF);
 
   static Color enabledColor = const Color(0xFFD0D4DD);
