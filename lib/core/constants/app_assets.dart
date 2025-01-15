@@ -13,6 +13,8 @@ class AppAssets {
   static const amazon = "assets/svg/amazon.svg";
   static const udemy = "assets/svg/udemy.svg";
 
+  static const arrowUp = "assets/svg/arrow-up.svg";
+
   // ----------Bottom Navigation bar assets---------- //
   static const home = "assets/svg/home-dark.svg";
   static const walletInactive = "assets/svg/wallet-inactive.svg";

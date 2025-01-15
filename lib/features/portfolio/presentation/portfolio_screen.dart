@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:oalet/core/extension/context_extension.dart';
 import 'package:oalet/features/portfolio/presentation/widgets/chart_section.dart';
+import 'package:oalet/features/portfolio/presentation/widgets/payment_history_section.dart';
 
 class PortfolioScreen extends StatefulWidget {
   const PortfolioScreen({super.key});
@@ -11,10 +12,20 @@ class PortfolioScreen extends StatefulWidget {
 
 class _PortfolioScreenState extends State<PortfolioScreen> {
 
-  TabBar get _tabBar => const TabBar(
+  TabBar get _tabBar => TabBar(
     tabs: [
-      Tab(icon: Icon(Icons.flight)),
-      Tab(icon: Icon(Icons.directions_transit)),
+      SizedBox(
+        width: context.mediaQuery.size.width / 2 - 50,
+        child: const Tab(
+          text: "Income",
+        ),
+      ),
+      SizedBox(
+        width: context.mediaQuery.size.width / 2 - 50,
+        child: const Tab(
+          text: "Expenses",
+        ),
+      ),
     ],
   );
 
@@ -60,20 +71,7 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
                     dividerColor: Colors.transparent,
                     tabAlignment: TabAlignment.start,
                     physics: const BouncingScrollPhysics(),
-                    tabs: [
-                      SizedBox(
-                        width: context.mediaQuery.size.width / 2 - 50,
-                        child: const Tab(
-                          text: "Income",
-                        ),
-                      ),
-                      SizedBox(
-                        width: context.mediaQuery.size.width / 2 - 50,
-                        child: const Tab(
-                          text: "Expenses",
-                        ),
-                      ),
-                    ],
+                    tabs: _tabBar.tabs,
                   ),
                 ),
               ),
@@ -85,7 +83,7 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
           child: Column(
             children: [
               // const SizedBox(height: 24),
-              Center(
+              const Center(
                 child: Text(
                   'Save This Month',
                   style: TextStyle(
@@ -95,7 +93,7 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
                 ),
               ),
               const SizedBox(height: 6),
-              Center(
+              const Center(
                 child: Text(
                   '\$1852.00 USD',
                   style: TextStyle(
@@ -107,7 +105,7 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
               const SizedBox(height: 6),
               Center(
                 child: RichText(
-                  text: TextSpan(
+                  text: const TextSpan(
                     text: 'Increase of ',
                     style: TextStyle(
                       fontSize: 16, fontWeight: FontWeight.normal,
@@ -128,7 +126,9 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
                 ),
               ),
               const SizedBox(height: 24),
-              const ChartSection()
+              const ChartSection(),
+              const SizedBox(height: 24),
+              const PaymentHistorySection()
             ],
           ),
         ),
