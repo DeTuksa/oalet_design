@@ -25,4 +25,8 @@ class AppAssets {
 
   // ------------ PNG Images ------------ //
   static const profileImage = "assets/png/img.png";
+  static const heya = "assets/png/heya.png";
+  static const michel = "assets/png/michel.png";
+  static const keya = "assets/png/keya.png";
+  static const maria = "assets/png/maria.png";
 }

@@ -5,6 +5,7 @@ import 'package:oalet/features/home/presentation/widgets/action_icon.dart';
 import 'package:oalet/features/home/presentation/widgets/custom_card.dart';
 import 'package:oalet/features/home/presentation/widgets/custom_nav_bar.dart';
 import 'package:oalet/features/home/presentation/widgets/profile_bar.dart';
+import 'package:oalet/features/home/presentation/widgets/sent_to_section.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -62,6 +63,8 @@ class _HomeScreenState extends State<HomeScreen> {
                         ],
                       ),
                     ),
+                    const SizedBox(height: 16),
+                    const SentToSection(),
                     Container()
                   ],
                 ),
