@@ -6,6 +6,10 @@ class AppAssets {
 
   static const notification = "assets/svg/notification.svg";
 
+  static const cardChip = "assets/svg/card_chip.svg";
+  static const cardBg = "assets/svg/card_bg.svg";
+  static const visa = "assets/svg/visa.svg";
+
   // ----------Bottom Navigation bar assets---------- //
   static const home = "assets/svg/home-dark.svg";
   static const walletInactive = "assets/svg/wallet-inactive.svg";
