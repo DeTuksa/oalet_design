@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:go_router/go_router.dart';
 import 'package:oalet/core/constants/app_assets.dart';
+import 'package:oalet/core/router/app_routes.dart';
 import 'package:oalet/core/themes/app_themes.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -86,7 +88,7 @@ class _SplashScreenState extends State<SplashScreen> {
               Padding(
                 padding: const EdgeInsets.all(24.0),
                 child: FilledButton(
-                  onPressed: () {},
+                  onPressed: () => context.pushNamed(AppRoutes.homeScreen),
                   style: FilledButton.styleFrom(
                       backgroundColor: Colors.black
                   ),

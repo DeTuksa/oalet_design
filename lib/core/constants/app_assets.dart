@@ -3,4 +3,11 @@ class AppAssets {
   static const oaletSplash = "assets/svg/oalet_splash.svg";
   static const smallStar = "assets/svg/small_star.svg";
   static const topRight = "assets/svg/top_right.svg";
+
+  // ----------Bottom Navigation bar assets---------- //
+  static const home = "assets/svg/home-dark.svg";
+  static const walletInactive = "assets/svg/wallet-inactive.svg";
+  static const scanActive = "assets/svg/scan-active.svg";
+  static const chartInactive = "assets/svg/chart-pie.svg";
+  static const userInactive = "assets/svg/user-inactive.svg";
 }
