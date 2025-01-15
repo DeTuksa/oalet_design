@@ -4,6 +4,6 @@ An implementation of a figma design I came across [Link here](https://www.figma.
 
 ## App Images
 
-|             Onboarding Screen              |                 Home Screen                 |                 Portfolio Screen                 |
-|:------------------------------------------:|:-------------------------------------------:|:------------------------------------------------:|
-| ![Onboarding](screenshots/home_screen.png) | ![Home](screenshots/ingredients_screen.png) | ![Portfolio](screenshots/ingredients_screen.png) |
+|                Onboarding Screen                 |             Home Screen              |                Portfolio Screen                |
+|:------------------------------------------------:|:------------------------------------:|:----------------------------------------------:|
+| ![Onboarding](screenshots/onboarding_screen.png) | ![Home](screenshots/home_screen.png) | ![Portfolio](screenshots/portfolio_screen.png) |
