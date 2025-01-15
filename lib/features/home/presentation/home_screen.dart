@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:oalet/core/constants/app_assets.dart';
 import 'package:oalet/core/extension/context_extension.dart';
 import 'package:oalet/features/home/presentation/widgets/action_icon.dart';
+import 'package:oalet/features/home/presentation/widgets/activities_section.dart';
 import 'package:oalet/features/home/presentation/widgets/custom_card.dart';
 import 'package:oalet/features/home/presentation/widgets/custom_nav_bar.dart';
 import 'package:oalet/features/home/presentation/widgets/profile_bar.dart';
@@ -65,6 +66,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     const SizedBox(height: 16),
                     const SentToSection(),
+                    const SizedBox(height: 32),
+                    const ActivitiesSection(),
                     Container()
                   ],
                 ),
