@@ -17,6 +17,12 @@ class AppAssets {
   static const chartInactive = "assets/svg/chart-pie.svg";
   static const userInactive = "assets/svg/user-inactive.svg";
 
+  // ------------Action Icons------------ //
+  static const send = "assets/svg/send.svg";
+  static const request = "assets/svg/request.svg";
+  static const eWallet = "assets/svg/e-wallet.svg";
+  static const more = "assets/svg/more.svg";
+
   // ------------ PNG Images ------------ //
   static const profileImage = "assets/png/img.png";
 }
